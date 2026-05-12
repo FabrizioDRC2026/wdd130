@@ -17,23 +17,28 @@ h1 {
 picture img {
     width: 400px;
     height: auto;
-    padding: 6px;
-    box-shadow: gray;
+
     display: block;
-    margin: 0 auto;
-    margin-bottom: 20px;
+    margin: 0 auto 20px auto;
+
+    box-shadow: 0 8px 20px gray;
 }
 
 section {
     width: 400px;
     height: auto;
+
     border: 1px solid gray;
     padding: 6px;
-    box-shadow: 1px solid gray;
+
+    box-shadow: 0 0 10px gray;
+
     display: block;
     margin: 0 auto;
+
     margin-top: 10px;
     margin-bottom: 20px;
+
     background-color: gainsboro;
 }
 
