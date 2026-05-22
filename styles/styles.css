@@ -1,3 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -6,17 +17,19 @@ nav {
 nav a {
     color: white;
     display: block;
-    padding: 20px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: navy;
 }
 
 h1 {
     color: darkblue;
-}
-
-h2 {
-    border-bottom: 1px solid rgb(6, 5, 5);
-    padding-bottom: 10px;
-    margin-bottom: 15px;
+    margin: 1rem;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.5rem;
 }
 
 main {
@@ -26,19 +39,35 @@ main {
 main img {
     width: 150px;
     height: auto;
+    float: right;
+    margin: 0 1rem 1rem 1rem;
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
 
+main p {
+    margin: 1rem;
+}
+
+ul {
+    list-style-position: inside;
+}
+
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0);
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
     text-align: center;
+    position: relative;
+}
+
+aside h2 {
+    position: absolute;
+    top: 25px;
+    left: 120px;
+    color: white;
+    border-bottom: none;
+    padding: 0;
+    margin: 0;
 }
 
 aside img {
@@ -46,13 +75,23 @@ aside img {
     height: auto;
 }
 
-p {
-    padding: 0;
-    margin: 10px;
+aside p {
+    margin-top: 1rem;
 }
 
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+    clear: both;
+}
+
+/* Class Selectors */
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: #f0f8ff;
+    color: #000;
 }
