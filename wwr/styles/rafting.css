@@ -1,8 +1,7 @@
 :root {
-
-    --primary-color: #69BFE7;
-    --secondary-color: #f2a43a;
-    --accent1-color: #0f3f68;
+    --primary-color: #14376b;
+    --secondary-color: #69bfe7;
+    --accent1-color: rgba(105, 191, 231, 0.7);
     --accent2-color: #1f1f1f;
 
     --heading-font: Georgia, "Times New Roman", serif;
@@ -71,7 +70,7 @@ h2 {
     width: 100%;
     padding: 16px;
     text-align: center;
-    background-color: rgb(105 191 231 / 70%);
+    background-color: var(--accent1-color);
     color: white;
     font-size: 2rem;
 }
@@ -82,7 +81,7 @@ h2 {
     left: 40px;
     right: 40px;
     padding: 16px;
-    background-color: rgb(105 191 231 / 70%);
+    background-color: var(--accent1-color);
     color: white;
 }
 
@@ -91,7 +90,7 @@ h2 {
     width: 125px;
     height: auto;
     margin-left: 16px;
-    border: 1px solid white;
+    border: 1px solid var(--secondary-color);
 }
 
 section {
