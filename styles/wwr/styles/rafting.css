@@ -1,0 +1,140 @@
+:root {
+
+    --primary-color: #69BFE7;
+    --secondary-color: #f2a43a;
+    --accent1-color: #0f3f68;
+    --accent2-color: #1f1f1f;
+
+    --heading-font: Georgia, "Times New Roman", serif;
+    --body-font: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent2-color);
+    background-color: white;
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 10px 0;
+}
+
+header img {
+    width: 120px;
+    height: auto;
+}
+
+nav {
+    margin: 16px;
+    padding: 8px;
+}
+
+nav a {
+    display: block;
+    color: var(--primary-color);
+    text-decoration: none;
+    padding: 2px 0;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+.hero {
+    position: relative;
+}
+
+.hero > img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    background-color: rgb(105 191 231 / 70%);
+    color: white;
+    font-size: 2rem;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    right: 40px;
+    padding: 16px;
+    background-color: rgb(105 191 231 / 70%);
+    color: white;
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+    height: auto;
+    margin-left: 16px;
+    border: 1px solid white;
+}
+
+section {
+    margin: 16px 0;
+    padding: 8px 0;
+}
+
+section h2 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding: 12px;
+    text-align: center;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+section p {
+    padding: 0 10px;
+    line-height: 1.5;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 15px 0;
+    border-top: 1px solid #999;
+}
+
+footer p {
+    margin: 16px;
+    padding: 8px;
+}
+
+.socialmedia {
+    margin-top: 5px;
+}
+
+.socialmedia a {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.socialmedia img {
+    width: 35px;
+    height: auto;
+}
