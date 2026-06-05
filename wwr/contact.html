@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | White Water Rafting</title>
+    <meta name="description"
+      content="Contact White Water Rafting to ask questions about trips, reservations, services, and website suggestions.">
+    <meta name="author" content="Fabrizio Rodriguez">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="White Water Rafting Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-title">
+            <h1>White Water Rafting Company</h1>
+            <p>123 River Adventure Road</p>
+            <p>Salmon, Idaho 83467</p>
+            <p>+1 (208) 555-0198</p>
+            <p>info@whitewaterrafting.com</p>
+        </section>
+
+        <section class="contact-layout">
+            <iframe src="https://www.google.com/maps?q=Salmon%20Idaho&output=embed" loading="lazy"
+              title="White Water Rafting location map">
+            </iframe>
+
+            <form class="contact-form">
+                <fieldset>
+                    <legend>Contact Form</legend>
+
+                    <div class="form-row">
+                        <label for="fullname">Name</label>
+                        <input type="text" id="fullname" name="fullname"
+                          placeholder="Insert your fullname" required>
+                    </div>
+
+                    <div class="form-row">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Inser your Email"
+                          required>
+                    </div>
+
+                    <div class="radio-row">
+                        <p>Message<br>Purpose</p>
+
+                        <div class="radio-group">
+                            <label>
+                                <input type="radio" name="purpose" value="general-inquiry" required>
+                                General Inquiry
+                            </label>
+
+                            <label>
+                                <input type="radio" name="purpose" value="reservation-question">
+                                Reservation Question
+                            </label>
+
+                            <label>
+                                <input type="radio" name="purpose" value="website-suggestion">
+                                Website Suggestion
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-row message-row">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Type here"
+                          required></textarea>
+                    </div>
+
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        Please subscribe me to the monthly newsletter
+                    </label>
+
+                    <button type="submit">Get in Touch!</button>
+                </fieldset>
+            </form>
+        </section>
+
+        <section class="employees">
+            <h2>We Are Here to Serve You</h2>
+
+            <div class="employee-grid">
+                <figure>
+                    <img src="images/employee1.jpg" alt="Maria Lopez, head rafting guide">
+                    <figcaption>Maria Lopez<br>Head Rafting Guide</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/employee2.jpg" alt="James Carter, reservation specialist">
+                    <figcaption>James Carter<br>Reservation Specialist</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/employee3.jpg" alt="Emily Brown, adventure coordinator">
+                    <figcaption>Emily Brown<br>Adventure Coordinator</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 White Water Rafting | Fabrizio Rodriguez</p>
+
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images/facebook.svg" alt="Facebook">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/linkedin.svg" alt="linkedin">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt="Instagram">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
