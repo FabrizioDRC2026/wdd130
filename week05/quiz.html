@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML and CSS Quiz</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+
+<body>
+
+    <main>
+        <h1>
+            <span class="icon">☑</span>
+            Basic HTML and CSS Quiz
+        </h1>
+
+        <form>
+            <div class="form-card">
+
+                <div class="form-group">
+                    <label for="css">
+                        <span>1.</span> What does the acronym CSS stand for?
+                    </label>
+                    <input type="text" id="css" name="css">
+                </div>
+
+                <div class="form-group">
+                    <label for="selectors">
+                        <span>2.</span> How are id and class attributes selected in CSS?
+                    </label>
+                    <textarea id="selectors" name="selectors"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="comment">
+                        <span>3.</span> Which of the following is a valid CSS comment?
+                    </label>
+
+                    <select id="comment" name="comment">
+                        <option value="">Choose One ...</option>
+                        <option value="html">&lt;!-- This is a comment --&gt;</option>
+                        <option value="css">/* This is a comment */</option>
+                        <option value="javascript">// This is a comment</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="margin">
+                        <span>4.</span> What is the bottom margin given this declaration?
+                    </label>
+
+                    <div class="code-box">
+                        margin: 10px 5px 15px;
+                    </div>
+
+                    <input type="text" id="margin" name="margin">
+                </div>
+
+                <button type="submit">Submit Quiz</button>
+
+            </div>
+        </form>
+    </main>
+
+</body>
+
+</html>
